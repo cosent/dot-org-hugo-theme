@@ -4,6 +4,7 @@
         max-width: var(--content-width);
     }
 
+    h2,
     .full-width,
     div,
     iframe {
@@ -13,6 +14,14 @@
 
     img {
         max-width: 100%;
+
+        &.hero {
+            padding: 0 15%;
+        }
+        &.heading {
+            max-height: 128px;
+            padding: 0 25%;
+        }
     }
 
     // Code block restriction.

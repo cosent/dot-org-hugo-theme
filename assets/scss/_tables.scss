@@ -4,9 +4,10 @@ table {
     border-spacing: 0;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    border: 1px var(--gray-400) solid;
+    border: 1px var(--cosent-grey) solid;
     th {
-        background-color: var(--gray-300);
+        color: var(--black);
+        background-color: var(--cosent-yellow);
         font-weight: 700;
     }
     th:first-child,
@@ -24,12 +25,12 @@ table {
         border-top-right-radius: 12px;
     }
     tr td {
-        border-bottom: 1px var(--gray-400) solid;
+        border-bottom: 1px var(--cosent-grey) solid;
     }
     td,
     th {
         &:not(:last-child) {
-            border-right: 1px var(--gray-400) solid;
+            border-right: 1px var(--cosent-grey) solid;
         }
     }
 }

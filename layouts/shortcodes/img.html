@@ -1,4 +1,6 @@
 {{ $src := .Get "src" }}
+{{ $id := .Get "id" }}
+{{ $class := .Get "class" }}
 {{ $width := .Get "width" | replaceRE "[^0-9]" "" }}
 {{ $height := .Get "height" | replaceRE "[^0-9]" "" }}
 {{ $caption := .Get "caption" }}
@@ -35,6 +37,8 @@
   {{ end }}
   <img
     src="{{ $src }}"
+    id="{{ $id }}"
+    class="{{ $class }}"
     width="{{ $width }}"
     height="{{ $height }}"
     alt="{{ $alt | safeHTMLAttr }}"

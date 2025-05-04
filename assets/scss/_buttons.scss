@@ -3,8 +3,8 @@
     display: inline-block;
     padding: 10px 20px;
     border-radius: 47px;
-    background-color: var(--primary-700);
-    color: var(--white);
+    color: var(--black);
+    background-color: var(--cosent-yellow);
     text-transform: uppercase;
     text-decoration: none;
     line-height: 1;
@@ -14,21 +14,23 @@
     &:hover,
     &:active {
         color: var(--white);
-        background-color: var(--primary-800);
+        background-color: var(--cosent-red);
     }
     &.secondary {
-        background-color: var(--primary-400);
+        color: var(--white);
+        background-color: var(--cosent-purple);
         &:hover,
         &:active {
             color: var(--white);
-            background-color: var(--primary-500);
+            background-color: var(--cosent-red);
         }
     }
     &.tertiary {
-        background-color: var(--primary-400);
+        color: var(--black);
+        background-color: var(--cosent-grey);
         &:hover {
             color: var(--white);
-            background-color: var(--primary-500);
+            background-color: var(--cosent-red);
         }
         &:active {
             color: var(--black);

@@ -10,15 +10,21 @@
 .card {
     padding: 40px 24px;
     border-radius: 10px;
-    background: var(--white);
+    color: var(--white);
+    background: var(--cosent-purple);
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
     h2,
-    h3 {
+    h3,
+    h4 {
         margin-block-start: 0;
         margin-block-end: 30px;
+        color: var(--cosent-yellow);
         a {
             text-decoration: none;
         }
+    }
+    a:not(.button) {
+        color: var(--cosent-yellow);
     }
     .button {
         margin-top: 0;
