@@ -15,13 +15,11 @@
     img {
         max-width: 100%;
 
-        &.hero {
+        &#headshot {
             padding: 0 15%;
+
         }
-        &.heading {
-            max-height: 128px;
-            padding: 0 25%;
-        }
+
     }
 
     // Code block restriction.

@@ -7,10 +7,10 @@ SCSS-ified, variablified, spin mode default by James Hunt @thetwopct
 */
 
 // Setup variables for the hamburger.
-$hamburger-color: var(--text-color);
-$hamburger-color-hover: var(--gray-800);
-$hamburger-active-color: var(--text-color);
-$hamburger-active-color-hover: var(--text-color);
+$hamburger-color: var(--black);
+$hamburger-color-hover: var(--cosent-purple);
+$hamburger-active-color: var(--menu-link-color);
+$hamburger-active-color-hover: var(--menu-link-color);
 $hamburger-padding-x: 0;
 $hamburger-padding-y: 10px;
 $hamburger-layer-width: 26px;

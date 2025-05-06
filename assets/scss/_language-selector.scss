@@ -68,6 +68,7 @@
     @media (prefers-reduced-motion: reduce) {
         transition: none;
     }
+    color: var(--black);
     &:hover {
         color: var(--menu-link-color-hover);
     }
