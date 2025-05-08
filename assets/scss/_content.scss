@@ -4,7 +4,6 @@
         max-width: var(--content-width);
     }
 
-    h2,
     .full-width,
     div,
     iframe {
@@ -12,14 +11,8 @@
         max-width: 100%;
     }
 
-    img {
-        max-width: 100%;
-
-        &#headshot {
-            padding: 0 15%;
-
-        }
-
+    #headshot {
+        padding: 0 15%;
     }
 
     // Code block restriction.
@@ -40,4 +33,8 @@
     ul ul {
         margin-top: 12px;
     }
+}
+
+.blog .content div.cards {
+    max-width: var(--content-width);
 }

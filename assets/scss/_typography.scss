@@ -27,7 +27,7 @@ h1,
 .h1 {
     font-family: var(--condensed-font-family);
     font-weight: 100;
-    color: var(--primary-400);
+    color: var(--cosent-purple);
     text-transform: uppercase;
     line-height: 112.2%;
     font-size: 44px;
@@ -41,7 +41,7 @@ h2,
 .h2 {
     font-family: var(--condensed-font-family);
     font-weight: 700;
-    color: var(--primary-400);
+    color: var(--cosent-purple);
     text-transform: uppercase;
     line-height: 120%;
     font-size: 34px;
@@ -50,6 +50,14 @@ h2,
     @media (min-width: $min-desktop) {
         line-height: 115%;
         font-size: 40px;
+    }
+
+    a {
+        color: var(--cosent-purple);
+
+        &:hover {
+            color: var(--cosent-yellow);
+        }
     }
 }
 
@@ -118,10 +126,14 @@ ol + p {
 a {
     font-weight: 700;
     color: var(--link-color);
-    text-decoration-color: var(--cosent-yellow);
+    text-decoration-color: var(--link-color-decoration);
     text-underline-offset: 0.2em;
     &:hover {
         color: var(--link-color-hover);
+
+        #content p &  {
+            //background-color: var(--black);
+        }
     }
 }
 
@@ -159,6 +171,16 @@ blockquote {
     }
 }
 
-.highlight pre {
+code {
+    color: var(--cosent-grey);
+    text-wrap: nowrap;
+}
+
+pre {
+    color: var(--cosent-grey);
+    //overflow: scroll;
+
+    &.highlight {
     padding: 20px;
+    }
 }
