@@ -23,7 +23,7 @@
             text-decoration: none;
         }
     }
-    a:not(.button) {
+    a:not(.button):hover {
         color: var(--cosent-yellow);
     }
     .button {
