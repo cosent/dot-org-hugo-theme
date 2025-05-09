@@ -52,9 +52,19 @@
   // Pagefind styles from https://pagefind.app/docs/ui-usage/#customising-the-styles
   --pagefind-ui-text: var(--text-color) !important;
   --pagefind-ui-font: var(--rounded-font-family) !important;
+  --pagefind-ui-background: var(--cosent-purple) !important;
+  --pagefind-ui-border: var(--cosent-grey) !important;
+  --pagefind-ui-primary: var(--text-color) !important;
 }
 
 // Define SCSS variables.
 $desktop-width: calc(1200px + 25px + 25px);
 $min-desktop: 1000px;
 $mobile-max: 999px;
+
+// Override non-parametrized pagefind styles
+p.pagefind-ui__result-excerpt mark {
+  color: var(--black);
+  background-color: var(--cosent-yellow);
+  padding: 2px;
+}
