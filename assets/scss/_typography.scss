@@ -173,10 +173,8 @@ code {
 }
 
 pre {
-    color: var(--cosent-grey);
-    //overflow: scroll;
 
     &.highlight {
-    padding: 20px;
+        padding: 20px;
     }
 }
