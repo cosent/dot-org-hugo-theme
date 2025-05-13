@@ -30,14 +30,21 @@
     text-transform: uppercase;
     a {
         text-decoration: none;
-        color: var(--gray-800);
+        color: var(--cosent-grey);
+
+        &:hover {
+            color: var(--link-color-hover);
+            text-decoration: underline;
+            text-decoration-color: var(--cosent-yellow);
+            text-underline-offset: 0.5em;
+        }
     }
 }
 
 .breadcrumb + .breadcrumb::before {
     content: "»";
     margin-right: 5px;
-    color: var(--gray-600);
+    color: var(--cosent-grey);
 }
 
 .breadcrumbs + .title,
