@@ -1,3 +1,13 @@
+body.blog h1 a {
+    &:hover img {
+        border-bottom: solid 5px var(--cosent-red);
+    }
+    img {
+        vertical-align: middle;
+        height: 1em;
+        margin: 0 0.2em;
+    }
+}
 .blog-item {
     margin-bottom: 50px;
     &:first-of-type {
