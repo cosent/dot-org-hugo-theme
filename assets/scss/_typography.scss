@@ -54,10 +54,6 @@ h2,
 
     a {
         color: var(--cosent-purple);
-
-        &:hover {
-            color: var(--cosent-yellow);
-        }
     }
 }
 
@@ -132,7 +128,7 @@ a {
         color: var(--link-color-hover);
 
         #content p &  {
-            //background-color: var(--black);
+            background-color: var(--black);
         }
     }
 }
