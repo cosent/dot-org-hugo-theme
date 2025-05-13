@@ -5,8 +5,8 @@
     margin: 20px 0;
     padding: 5px 0 0 0;
     justify-content: center;
-    //background-color: var(--cosent-yellow);
-    border: solid 1px var(--cosent-yellow);
+    background-color: var(--cosent-purple);
+    border: solid 2px var(--cosent-yellow);
 }
 
 .page-link {
@@ -16,11 +16,19 @@
     @media (max-width: 420px) {
         padding: 0.75rem 0.75rem;
     }
-    margin-left: -1px;
+    margin: 2px;
     line-height: 1.25;
     //background-color: var(--white);
     margin-top: 5px;
     text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+
+    &:hover {
+        //background-color: var(--cosent-yellow);
+        text-decoration: none;
+        border: 2px solid var(--cosent-yellow);
+    }
 }
 
 .homepage .page-link,
@@ -29,7 +37,7 @@
 }
 
 .page-item.disabled .page-link {
-    color: var(--grey);
+    color: var(--cosent-grey);
     pointer-events: none;
     cursor: auto;
 }
@@ -37,5 +45,9 @@
 .page-item.active .page-link {
     z-index: 1;
     color: var(--white);
-    border: 1px solid var(--cosent-grey);
+    border: 2px solid var(--white);
+
+    &:hover {
+        background-color: var(--cosent-purple);
+    }
 }
