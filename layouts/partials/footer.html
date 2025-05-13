@@ -1,6 +1,5 @@
 <footer class="footer">
     <div class="container wrap">
-
         <div class="footer__menu-cta-wrapper">
 
             <div class="footer__menu">
@@ -57,9 +56,9 @@
 
         <div class="footer__logo-social-wrapper">
             {{ with .Site.Params.logo_on_black }}
-            <a class="logo-link" href="{{ "/" | absLangURL }}">
-                <img loading="lazy" class="logo" width="150" height="40" src="{{ . | absURL }}" alt="{{ $.Site.Title | safeHTMLAttr }}"></a>
+            <a class="logo-link" href="{{ "/" | absLangURL }}"><img loading="lazy" class="logo" width="150" height="40" src="{{ . | absURL }}" alt="{{ $.Site.Title | safeHTMLAttr }}"></a>
             {{ end }}
+                <p class="contact"><span class="phone">+31 . 654 355 636</span> <a class="email" href='mailto:website@cosent.nl'>website@cosent.nl</a></p>
 
             {{- partial "footer/social-links.html" . -}}
         </div>
