@@ -170,11 +170,9 @@ blockquote {
 code {
     color: var(--cosent-cyan);
     text-wrap: nowrap;
-}
 
-pre {
-
-    &.highlight {
-        padding: 20px;
+    .highlight & {
+        color: var(--gray-200);
     }
 }
+
